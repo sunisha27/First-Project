@@ -14,6 +14,7 @@ header>h1{
     text-align: center;
     font-family: Asap, sans-serif;
 }
+
 .score-board{
     margin: 20px auto;
     border: 3px solid;
@@ -65,7 +66,7 @@ text-align: center;}
 }
 .choice:hover{
     cursor: pointer;
-    background: #24272E;
+    background: #21428d;
 }
 #action-message{
     text-align: center;
@@ -74,4 +75,16 @@ text-align: center;}
     font-weight: bold;
     font-size: 20px;
     margin-top:20px ;
+}
+.green-glow{
+    border:4px solid #4dcc7c;
+    box-shadow: 0 0 10px #31b43a;
+}
+.red-glow{
+    border:4px solid #fc121b;
+    box-shadow: 0 0 10px #d0115d;
+}
+.gray-glow{
+    border:4px solid #a5b839;
+    box-shadow: 0 0 10px #eef133;
 }
