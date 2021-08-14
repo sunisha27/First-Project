@@ -33,14 +33,14 @@ computerScore++;
  computerScore_span.innerHTML = computerScore;
  const smallUserWord = "user".fontsize(3).sub();
  const smallComputerWord = "comp".fontsize(3).sub();
- result_p.innerHTML= `${convertToWord(userChoice)}${smallUserWord} beats ${convertToWord(computerChoice)}${smallComputerWord} .You Lose! `;
+ result_p.innerHTML= `${convertToWord(userChoice)}${smallUserWord} loses to ${convertToWord(computerChoice)}${smallComputerWord} .You Lose! `;
  
 }
 function draw(userChoice, computerChoice){
     
     const smallUserWord = "user".fontsize(3).sub();
     const smallComputerWord = "comp".fontsize(3).sub();
-    result_p.innerHTML= `${convertToWord(userChoice)}${smallUserWord} beats ${convertToWord(computerChoice)}${smallComputerWord} .Tts Draw! `;
+    result_p.innerHTML= `${convertToWord(userChoice)}${smallUserWord} equals ${convertToWord(computerChoice)}${smallComputerWord} .Its Draw! `;
 }
 
 function game(userChoice){
